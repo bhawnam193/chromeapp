@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+		<title>Title</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<style>
+			.bar{
+				min-height:100px;
+			}
+			.bar img{
+				width:162px;
+				height:162px;
+			}
+			#category{
+				padding: 10px;
+				display:block;
+				border: 1px solid #CCC;
+				border-radius: 10px;
+				color:#555;
+				background:#F4F4F4;
+				margin: 10px 0;
+				box-shadow: 2px 2px 5px #CCC;
+			}
+			a#category:hover{
+				background:#EDF0FE;
+				text-shadow: 0 0 #CCC;
+				box-shadow: 5 5px 10px #ADB5F8;
+			}
+			a#category:active{
+				background:#EDF0FE;
+				text-shadow: 0 0 #CCC;
+				box-shadow: 0 0 #ADB5F8;
+				top:2px;
+				position:relative
+			}
+			a#category a:hover{text-decoration:underline}
+			a#category #image{width:130px;}
+			a#category #image img{width:70px;}
+			a#category #details{width:400px;}
+			a#category #details,a#category #image{
+				float:left;
+				padding-right:10px;
+			}
+			div#heading{
+				font-size:2em;
+				font-weight:bold;
+				margin:10px 0;
+				border-bottom:1px solid #333;
+				
+			}
+			.heading1{
+				margin-top: 180px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="main" class="rounded">
+    	    <div id="mid" class="rounded">
+				<div id="header">
+					<div class="content">
+						<a title="Go to Home Page" id="logo" href="index.html"><img src="img/logo2.png"></a>
+						<form name="search" id="searchbar" action="search.html" method="get">
+							<input type="text" id="search1" name="query" placeholder="SEARCH" onclick="this.value=''">
+							<input type="submit" name="submit" value="">
+						</form>
+			
+						<div id="menu" style="float:right">
+							<ul id="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">Main Category</a>
+		<ul>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+		</ul>
+		<div class="clear"></div>
+	</li>
+	<li><a href="#">Main Category</a>
+		<ul>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+		</ul>
+		<div class="clear"></div>
+	</li>
+	<li><a href="#">Main Category</a>
+		<ul>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+		</ul>
+		<div class="clear"></div>
+	</li>
+	<li><a href="tags.html">Main Category</a>
+		<ul>
+			<li><a href="#">Sub Category</a></li>
+			<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="#">Sub Category</a></li>
+<li><a href="tags.html">More &raquo;</a></li>
+
+			</ul>
+		<div class="clear"></div>
+	</li>
+	</ul>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>      
+				<div id="content">
+					<div class="container">
+						<div class="heading1">
+							<img src="img/logo.gif" height="20px"> Search Results
+						</div>
+						<div class="pad">
+						<div id="search">
+							<form name="search" action="" method="">
+								<input type="text" name="query" maxlength="30" value="">
+								<input type="submit" value="Search">
+							</form>
+						</div>
+			
+						<div id="results">
+							<div class="clear"></div>
+						</div>
+						<div id="skyscraper">
+							<div id='categories' class='container'>
+								<div class='heading'>
+									<img src='img/logo.png'>&nbsp;Categories
+								</div>
+								<ul id='content'>
+									<li class='cats'><a href='specific-tag.html'>Funny Pictures (11,687)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Troll Comics (3,517)</a></li>
+									<li class='cats'><a href='specific-tag.html'>IPhone Errors (3,178)</a></li>
+									<li class='cats'><a href='specific-tag.html'>LoL (966)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Movies (461)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Facebook (426)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Girl (361)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Animals (308)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Wtf (279)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Epic (251)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Cartoon (240)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Boy (224)</a></li>
+									<li class='cats'><a href='specific-tag.html'>Meme Comics (222)</a></li>
+								</ul>
+								<div class='clear'></div>
+								<a class='more' href='/tags'>View All Tags</a>
+							</div>			
+							<div class='clear'></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>  
+			<!--Content end-->
+			<center style="padding:2px 20px;width:1000px;margin:0 auto;">
+				<i>
+					The Ultimate Destination For Free Download, Sharing And Viewing Of The Funniest Pictures, Fails, IPhone Autocorrects, Wallpapers, Movies Scenes, Troll Comics Online, Funny Iphone Texts ,Epic Pictures, Meme Comics, Facebook Status Fails, Funny Animal Photos, Rage Comics, Lol Photos, Tv Series Funny Photos, Photoshop Fails, Boyfriend - Girlfriend Texts And Much More Funny Stuffs. Kill Your Boredom And Have A Fun Time At Thefunnyplanet. Updated Daily. Do Recommend It To Your Friends
+				</i>
+			</center>
+			<div id="footer">
+				<a href="disclaimer.html">Disclaimer</a> | <a href="privacy.html">Privacy Policy</a> | <a href="contact.html">Contact Us</a> 
+				<br>&copy; 2016
+			</div>
+			<script src="js/jquery.min.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {	
+					$('#nav li').hover(
+						function () {
+							$('ul', this).slideDown(300);
+						}, 
+						function () {
+							$('ul', this).slideUp(200);			
+						}
+					);
+				});
+			</script>
+		</div>  <!-- Mid End here-->
+        <div class="clear"></div>
+    </div>   <!--Main ends here-->
+</body>
+</html>
